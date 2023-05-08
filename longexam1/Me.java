@@ -11,7 +11,8 @@ public class Me implements Tourist {
 
         if (budget >= boracay.airFare) {         
             budget-=boracay.airFare;
-            System.out.println( "Yahoo! The places and clubs here in Boracay are so fun!");
+            visit();
+            System.out.println(" here in Boracay. The places and clubs here are so fun!");
         }
         else {
             System.out.println("Not enough budget to visit Boracay!");
@@ -24,7 +25,8 @@ public class Me implements Tourist {
         
         if (budget >= cebu.airFare) {
             budget-=cebu.airFare;
-            System.out.println("Wow! Cebu has a lot of tourist attractions and historical landmarks");
+             visit();
+            System.out.println(" here in Cebu. There are lot of tourist attractions and historical landmarks!");
         }
         else {
             System.out.println("Not enough budget to visit Cebu!");
@@ -38,7 +40,8 @@ public class Me implements Tourist {
 
         if (budget >= manila.airFare) {
             budget-=manila.airFare;
-            System.out.println("The cuisines here in Manila is exquisite, and its modern amenities");
+            visit();
+            System.out.println(" here in Manila. The cuisines are exquisite, and its modern amenities");
         }
         else {
             System.out.println("Not enough budget to visit Manila!");
@@ -52,7 +55,8 @@ public class Me implements Tourist {
 
         if (budget >= iloilo.airFare){
             budget-=iloilo.airFare;
-            System.out.println("Iloilo is a nice place with a rich culture and heritage, the food here is good too!");
+            visit();
+            System.out.println(" here in Iloilo. Such a nice place with a rich culture and heritage, the food here is good too!");
         }
         else {
             System.out.println("Not enough budget to visit Iloilo!");
@@ -66,7 +70,8 @@ public class Me implements Tourist {
 
         if (budget >= palawan.airFare) {        
             budget-=palawan.airFare;
-            System.out.println("Woah! The islands here in Palawan has natural beatury and ecological diversity");
+            visit();
+            System.out.println(" here in Palawan. Their islands has natural beatury and ecological diversity");
         }
         else {
             System.out.println("Not enough budget to visit Palawan!");
@@ -79,7 +84,8 @@ public class Me implements Tourist {
 
         if (budget >= siargao.airFare) {
             budget-=siargao.airFare;
-            System.out.println("Siargao is such a laid-back island vibe, surfing here is fun too!");
+            visit();
+            System.out.println(" here in Siargao. Such a laid-back island vibe, surfing here is fun too!");
         }
         else {
             System.out.println("Not enough budget to visit Siargao!");
